@@ -16,7 +16,7 @@ stop_words=['fakat','lakin','ancak','acaba', 'ama', 'aslında', 'az', 'bazı',
             've', 'veya', 'ya', 'yani', 'lütfen']
 
 msg=input("yapmak istediginiz islemi giriniz.")
-msgdf=pd.DataFrame({"metin":msg, "kategori":0}, index=[42])
+msgdf=pd.DataFrame({"metin":msg, "kategori":0}, index=[44])
 
 df=pd.concat([df, msgdf], ignore_index=True)
 
